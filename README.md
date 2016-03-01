@@ -1,4 +1,4 @@
-# google-api
+# Docs
 
 https://cloud.google.com/appengine/docs/php/  
 
@@ -33,3 +33,23 @@ add
 `$git add`  
 `$git commit -m "First commit"`  
 `$git push origin master`  
+
+# Google Console
+
+https://console.cloud.google.com/project
+add Project
+
+* engineapp  <your-app-id>
+
+
+fix app.yaml
+```
+application: <your-app-id>
+version: 1
+runtime: php55
+```
+
+Google App Engine Launcher  
+Deploy  
+
+The full URL for your application is http://<your-app-id>.appspot.com/.
