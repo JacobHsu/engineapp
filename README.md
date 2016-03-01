@@ -52,4 +52,4 @@ runtime: php55
 Google App Engine Launcher  
 Deploy  
 
-The full URL for your application is http://<your-app-id>.appspot.com/.
+The full URL for your application is http://your-app-id.appspot.com/.
